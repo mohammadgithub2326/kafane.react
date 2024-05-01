@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import styles from './products.module.css';
+import styles from './Products.module.css';
 // import { useRouter } from 'next/navigation';
 
 function ProductsPage() {

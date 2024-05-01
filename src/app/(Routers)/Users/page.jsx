@@ -4,7 +4,7 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import styles from './users.module.css';
+import styles from './Users.module.css';
 // import { useRouter } from 'next/navigation';
 
 const UsersPage = () => {
