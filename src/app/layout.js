@@ -1,5 +1,6 @@
 
 
+import Footer from "@/components/Footer/page";
 import Navbar from "@/components/navbar/page";
 import { Inter } from "next/font/google";
 // import {loggInProvider} from '@/app/utils/auth'
@@ -27,6 +28,7 @@ export default function RootLayout({ children  }) {
         {/* <loggInProvider > */}
         <Navbar/>
         {children}
+        <Footer/>
         {/* </loggInProvider> */}
         </body>
      

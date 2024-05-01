@@ -21,7 +21,7 @@ const Navbar = () => {
   // console.log(logIn)
   return (
     <nav className={styles.navbar}>
-      <div className={styles.brand} >kafane</div>
+      <div className={styles.brand} onClick={()=>router.push("/Orders")}>kafane</div>
       <ul className={styles.navLinks}>
         <li className={styles.navItem}>
            {/* <Link >  */}
