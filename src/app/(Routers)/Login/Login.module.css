@@ -1,0 +1,44 @@
+/* pages/login.module.css */
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 80%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    align-items: center;
+  }
+  
+  .button {
+    align-items: center;
+    width: 40%;
+        margin-left: 130px;
+
+    padding: 10px;
+    background-color: #3f6a3b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
