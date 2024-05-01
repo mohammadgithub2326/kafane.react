@@ -44,6 +44,7 @@ import styles from './Login.module.css';
 
   return (
     <div className={styles.container}>
+      <h5>to login  username and password should be same no what ever it maybe</h5>
       <h1 className={styles.title}>Login</h1>
       <input type="text" className={styles.input} placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
       <input type="password" className={styles.input} placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
